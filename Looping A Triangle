@@ -4,3 +4,7 @@ while (hash.length <= 6) {
   hash += "#";
   console.log(hash);
 }
+
+/*for(hash = ""; hash.length <= 6; hash += "#" ) {
+      console.log(hash);
+   } */
