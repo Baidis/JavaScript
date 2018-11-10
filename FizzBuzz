@@ -1,0 +1,18 @@
+let item = 0;
+
+while (item <= 99) { 
+  item += 1;
+
+  if (item % 5 === 0 && (item % 3 === 0)) {
+    console.log("FizzBuzz");}
+
+  else if (item % 5 === 0 && !(item % 3 === 0)) {
+    console.log("Buzz");}
+
+  else if (item % 3 === 0) {
+    console.log("Fizz");}  
+  
+  else {
+    console.log(item);
+  }
+  }
