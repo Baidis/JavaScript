@@ -1,0 +1,6 @@
+function min(a,b) {
+  if a<b console.log(a);
+  if a>b console.log(b);
+}
+
+min(22,10)
