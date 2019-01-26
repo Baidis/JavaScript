@@ -1,1 +1,37 @@
-//chessBoard code will go here
+// Chessboard
+
+// Starting with an empty one ("") and repeatedly adding characters.
+let k = "";
+// Set height
+let y = 8;
+// Set width
+let x = 8;
+
+// To work with two dimensions, you will need a loop inside of a loop.
+for (var j = 0; j < y; j++) {
+
+//Alternating pattern  
+  if (j%2){
+    for (var i = 0; i < x; i++) {
+      if (i%2) {
+        k = k + "#";
+      }
+      else{
+        k = k + " ";
+      }}}
+
+  else{
+    for (var i = 0; i < x; i++) {
+        if (i%2) {
+          k = k + " ";
+        }
+        else{
+          k = k + "#";
+        }}}
+
+// Create a new line in the string
+  k = k + "\n ";
+  }
+
+
+  console.log(k);
