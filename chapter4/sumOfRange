@@ -1,0 +1,22 @@
+// Thesumofarange
+
+var listRange = [];
+
+//Make array for min to mix with increments
+function range(start, end, increments) {
+  for (let i = start; i <= end; i+=increments) {
+    listRange.push(i);
+  }
+}
+
+range(1, 4, 2);
+console.log(listRange);
+
+//get sum of array
+function getSum(ary){
+  return ary.reduce(function(sum, value) {
+    return sum + value;
+  }, 0);
+}
+
+console.log(getSum(listRange));
